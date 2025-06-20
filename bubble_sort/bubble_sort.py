@@ -7,8 +7,9 @@ def bubble_sort(unsorted_list):
             if unsorted_list[j] > unsorted_list[j+1]:
                 unsorted_list[j], unsorted_list[j+1] = unsorted_list[j+1], unsorted_list[j]
 
+    return unsorted_list
 
-    data = [5,3,6,8,9]
-    bubble_sort(data)
-    print("Bubble sorted: ", data)
-    pass
+data = [5,3,6,8,9]
+bubble_sort(data)
+print("Bubble sorted: ", data)
+
