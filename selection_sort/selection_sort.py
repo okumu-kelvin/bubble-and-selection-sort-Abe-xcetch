@@ -1,5 +1,6 @@
 def selection_sort(arr):
     # TODO: Implement selection sort
+    arr = arr.copy()
     n = len(arr)
     for i in range(n):
         min_index = i
