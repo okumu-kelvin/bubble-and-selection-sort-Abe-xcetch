@@ -9,7 +9,4 @@ def bubble_sort(unsorted_list):
 
     return unsorted_list
 
-data = [5,3,6,8,9]
-bubble_sort(data)
-print("Bubble sorted: ", data)
 

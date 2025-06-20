@@ -9,8 +9,6 @@ def selection_sort(arr):
                 arr[i], arr[min_index] = arr[min_index], arr[i]
 
     return arr
-data = [5,3,6,8,9]
-selection_sort(data)
-print("Selection sorted: ", data)
+
 
 
